@@ -1,0 +1,4 @@
+#!/bin/sh
+
+rm /usr/data/product_conf
+cp /usr/data/PWNa/product_conf /usr/data/product_conf
