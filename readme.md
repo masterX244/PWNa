@@ -7,9 +7,9 @@ IMPORTANT: Make sure all text files got unix linefeeds
 * Doing a local DNS redirect of ```firmware.sena.com``` to your own LAN ip.
 * Create a folder ```senabluetoothmanager```.
 * Create a folder ```WiFiCradle/impulse```
-* Create a file check.cdat with following content: ```
-SENA
-``` (yes, the linefeed at the end matters)
+* Create a file check.cdat with following content:
+    SENA
+(yes, the linefeed at the end matters)
 * Download firmware.sena.com/senabluetoothmanager/Firmware and save it at the same folder on your local server.
 * Replace the filename after the last colon on Lines containing ```Impulse-v1.*.img``` with ```I";any_command_here```.  
 That line change allows injection of arbitrary commands.
